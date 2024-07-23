@@ -1,4 +1,5 @@
 install:
+	poetry lock
 	poetry install
 
 dev:
@@ -6,7 +7,6 @@ dev:
 
 PORT ?= 8000
 start:
-	python3 manage.py migrate
 	poetry run gunicorn --bind 0.0.0.0:$(PORT) task_manager.wsgi
 
 shell:
@@ -19,7 +19,7 @@ mig:
 	poetry run python3 manage.py migrate
 
 lint:
-	poetry run flake8 --ignore=E501 task_manager
+	poetry run flake8 task_manager
 
 setup:
 	poetry install
