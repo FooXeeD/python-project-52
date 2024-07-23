@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1ed5b9c2-3e7c-4ecf-9c4e-06bc24d43bf0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +97,7 @@
       <workItem from="1721576023502" duration="83000" />
       <workItem from="1721576146024" duration="942000" />
       <workItem from="1721640799350" duration="803000" />
-      <workItem from="1721641813009" duration="17536000" />
+      <workItem from="1721641813009" duration="17929000" />
     </task>
     <servers />
   </component>

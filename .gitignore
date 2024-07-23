@@ -14,7 +14,7 @@ staticfiles/
 
 .env
 .python-version
-*.sqlite3
+db.sqlite3
 *.bak
 *.dot
 *.pdf
