@@ -7,7 +7,7 @@ dev:
 
 PORT ?= 8000
 start:
-	poetry run gunicorn --bind 0.0.0.0:$(PORT) task_manager.wsgi
+	poetry run gunicorn --bind 0.0.0.0:$(PORT) task_manager.wsgi --timeout 90
 
 shell:
 	python3 manage.py shell

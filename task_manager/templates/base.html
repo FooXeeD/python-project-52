@@ -1,5 +1,6 @@
 {% load i18n %}
 {% get_current_language as LANGUAGE_CODE %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Сначала подключаем jQuery -->
 {% load django_bootstrap5 %}
 
 <!DOCTYPE html>
@@ -22,6 +23,6 @@
         <footer>
             {% include 'footer.html' %}
         </footer>
-        {% bootstrap_javascript jquery='full' %}
+        {% bootstrap_javascript %}
     </body>
 </html>
