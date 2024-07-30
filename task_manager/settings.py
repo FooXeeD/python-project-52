@@ -25,7 +25,7 @@ ALLOWED_HOSTS = [
     '.railway.app',
     'localhost',
     'onrender.com',
-    'python-project-52-lay3.onrender.com',
+    'python-project-52-lay3.onrender.com'
 ]
 
 # Application definition
