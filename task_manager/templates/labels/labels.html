@@ -10,29 +10,29 @@
 {% block content %}
     <h1 class="my-4">{{ title }}</h1>
 
-    <a class="nav-link" href="{% url 'status_create' %}">{% translate 'Create status' %}</a>
+    <a class="nav-link" href="{% url 'label_create' %}">{% translate 'Create label' %}</a>
 
     <table class="table table-striped">
         <thead class="thead-dark">
             <tr>
                 <th>ID</th>
-                <th>{% translate 'Name' %}</th>
-                <th>{% translate 'Creation date' %}</th>
+                <th>{% trans 'Name' %}</th>
+                <th>{% trans 'Creation date' %}</th>
                 <th></th>
             </tr>
         </thead>
 
         <tbody>
-            {% if statuses %}
-                {% for status in statuses %}
+            {% if labels %}
+                {% for label in labels %}
                     <tr>
-                        <td>{{ status.id }}</td>
-                        <td>{{ status.name }}</td>
-                        <td>{{ status.date_created|date:"d.m.Y H:i" }}</td>
+                        <td>{{ label.id }}</td>
+                        <td>{{ label.name }}</td>
+                        <td>{{ label.date_created|date:"d.m.Y H:i" }}</td>
                         <td>
-                          <a href="{% url 'status_update' status.id %}">{% trans 'Update' %}</a>
+                          <a href="{% url 'label_update' label.id %}">{% translate 'Update' %}</a>
                           <br>
-                          <a href="{% url 'status_delete' status.id %}">{% trans 'Delete' %}</a>
+                          <a href="{% url 'label_delete' label.id %}">{% translate 'Delete' %}</a>
                         </td>
                     </tr>
                 {% endfor %}

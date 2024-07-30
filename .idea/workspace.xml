@@ -5,9 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ed5b9c2-3e7c-4ecf-9c4e-06bc24d43bf0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/run_tests.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/statuses/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/statuses/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/fixtures/label.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/fixtures/status.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/fixtures/task.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/fixtures/test_label.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/fixtures/test_status.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/fixtures/test_task.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/fixtures/test_user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/fixtures/user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/locale/en/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/locale/en/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/mixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/statuses/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/statuses/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/statuses/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/statuses/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/statuses/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/statuses/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/statuses/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/statuses/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/statuses/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/statuses/statuses.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/users/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/users/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/users/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/users/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/wsgi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +144,7 @@
       <workItem from="1721576023502" duration="83000" />
       <workItem from="1721576146024" duration="942000" />
       <workItem from="1721640799350" duration="803000" />
-      <workItem from="1721641813009" duration="46985000" />
+      <workItem from="1721641813009" duration="66266000" />
     </task>
     <servers />
   </component>

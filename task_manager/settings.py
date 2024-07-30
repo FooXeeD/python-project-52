@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'task_manager',
     'task_manager.users',
     'task_manager.statuses',
+    'task_manager.tasks',
+    'task_manager.labels'
 ]
 
 MIDDLEWARE = [
@@ -85,6 +87,10 @@ DATABASES = {
     )
 }
 
+if os.getenv('DATABASE_URL'):
+    db_from_env = dj_database_url.config(conn_max_age=600)
+    DATABASES['default'].update(db_from_env)
+
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
@@ -101,12 +107,15 @@ AUTH_USER_MODEL = 'users.User'
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
-LANGUAGE_CODE = "en"
+if os.getenv('LANGUAGE'):
+    LANGUAGE_CODE = os.getenv('LANGUAGE')
+else:
+    LANGUAGE_CODE = 'ru-ru'
 
-LANGUAGES = [
-    ("en", "English"),
-    ("ru", "Russian"),
-]
+LANGUAGES = (
+    ('en-us', 'English'),
+    ('ru-ru', 'Russian'),
+)
 
 TIME_ZONE = 'UTC'
 
@@ -139,7 +148,6 @@ ROLLBAR = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.railway.app',
     'https://127.0.0.1',
     'https://localhost',
     'https://0.0.0.0',

@@ -1,15 +1,15 @@
 from django import forms
 from django.utils.translation import gettext as _
 
-from .models import Status
+from .models import Label
 
 
-class StatusForm(forms.ModelForm):
+class LabelForm(forms.ModelForm):
 
     name = forms.CharField(
-        max_length=150, required=True, label=_("Form Name")
+        max_length=150, required=True, label=_("Label Name")
     )
 
     class Meta:
-        model = Status
+        model = Label
         fields = ('name',)
