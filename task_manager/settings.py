@@ -108,13 +108,9 @@ AUTH_USER_MODEL = 'users.User'
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
-if os.getenv('LANGUAGE'):
-    LANGUAGE_CODE = os.getenv('LANGUAGE')
-else:
-    LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = 'ru-ru'
 
 LANGUAGES = (
-    ('en-us', 'English'),
     ('ru-ru', 'Russian'),
 )
 

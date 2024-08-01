@@ -10,7 +10,7 @@ class TaskFilter(FilterSet):
 
     labels = ModelChoiceFilter(
         queryset=Label.objects.all(),
-        label=_('=Label=')
+        label=_('Label')
     )
 
     own_tasks = BooleanFilter(

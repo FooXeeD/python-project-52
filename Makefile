@@ -23,10 +23,10 @@ lint:
 	poetry run flake8 task_manager
 
 mes:
-	python3 manage.py makemessages -l en
+	python3 manage.py makemessages -l ru
 
 mes_c:
-	python3 manage.py compilemessages -l en
+	python3 manage.py compilemessages -l ru
 
 setup:
 	poetry install

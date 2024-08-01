@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1ed5b9c2-3e7c-4ecf-9c4e-06bc24d43bf0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/locale/en/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/locale/en/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/tasks/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +103,7 @@
       <workItem from="1721576023502" duration="83000" />
       <workItem from="1721576146024" duration="942000" />
       <workItem from="1721640799350" duration="803000" />
-      <workItem from="1721641813009" duration="73572000" />
+      <workItem from="1721641813009" duration="76333000" />
     </task>
     <servers />
   </component>
