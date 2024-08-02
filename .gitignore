@@ -21,3 +21,4 @@ db.sqlite3
 erd.png
 .coverage
 env/
+.idea
