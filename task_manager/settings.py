@@ -25,7 +25,8 @@ ALLOWED_HOSTS = [
     '0.0.0.0',
     '.railway.app',
     'localhost',
-    'python-project-52-lay3.onrender'
+    '.onrender.com',
+    'python-project-52-lay3.onrender.com'
 ]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get(
